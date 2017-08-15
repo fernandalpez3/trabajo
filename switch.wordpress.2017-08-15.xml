@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.7.5" created="2017-08-15 23:03" -->
+<!-- generator="WordPress/4.7.5" created="2017-08-15 23:32" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>SWITCH</title>
 	<link>http://localhost:8888/SWITCH</link>
 	<description>Marketing</description>
-	<pubDate>Tue, 15 Aug 2017 23:03:48 +0000</pubDate>
+	<pubDate>Tue, 15 Aug 2017 23:32:26 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost:8888/SWITCH</wp:base_site_url>
@@ -2652,7 +2652,7 @@ This e-mail was sent from a contact form on SWITCH (http://localhost:8888/SWITCH
 		<dc:creator><![CDATA[katia_ck]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8888/SWITCH/?page_id=403</guid>
 		<description></description>
-		<content:encoded><![CDATA[<div id="pl-403"  class="panel-layout" ><div id="pg-403-0"  class="panel-grid panel-no-style" ><div id="pgc-403-0-0"  class="panel-grid-cell"  data-weight="1" ><div id="panel-403-0-0-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="0" data-style="{&quot;background_display&quot;:&quot;tile&quot;,&quot;animation_offset&quot;:&quot;10&quot;,&quot;animation_iteration&quot;:&quot;1&quot;,&quot;iw-visible-screen&quot;:&quot;iw-all&quot;,&quot;iw-visible-layout&quot;:&quot;iw-all&quot;}" >			<div class="textwidget"><h1>jInvertScroll Example</h1>
+		<content:encoded><![CDATA[<div id="pl-403"  class="panel-layout" ><div id="pg-403-0"  class="panel-grid panel-no-style" ><div id="pgc-403-0-0"  class="panel-grid-cell"  data-weight="1" ><div id="panel-403-0-0-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="0" data-style="{&quot;background_image_attachment&quot;:false,&quot;background_display&quot;:&quot;tile&quot;,&quot;animation_offset&quot;:&quot;10&quot;,&quot;animation_iteration&quot;:&quot;1&quot;,&quot;iw-visible-screen&quot;:&quot;iw-all&quot;,&quot;iw-visible-layout&quot;:&quot;iw-all&quot;}" >			<div class="textwidget"><h1>jInvertScroll Example</h1>
     
     <div class="horizon scroll">
         <img src="http://localhost:8888/SWITCH/wp-content/uploads/2017/08/horizon.png" alt="" />
@@ -2662,7 +2662,19 @@ This e-mail was sent from a contact form on SWITCH (http://localhost:8888/SWITCH
     </div>
     <div class="front scroll">
         <img src="http://localhost:8888/SWITCH/wp-content/uploads/2017/08/front.png" alt="" />
-    </div></div>
+    </div>
+
+    <script type="text/javascript">
+    (function($) {
+        $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+            {
+            height: 6000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                console.log(percent);
+            }
+        });
+    }(jQuery));
+    </script></div>
 		</div></div></div></div>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>403</wp:post_id>
@@ -2683,7 +2695,7 @@ This e-mail was sent from a contact form on SWITCH (http://localhost:8888/SWITCH
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[panels_data]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{s:7:"widgets";a:1:{i:0;a:4:{s:5:"title";s:0:"";s:4:"text";s:452:"<h1>jInvertScroll Example</h1>
+			<wp:meta_value><![CDATA[a:3:{s:7:"widgets";a:1:{i:0;a:4:{s:5:"title";s:0:"";s:4:"text";s:1064:"<h1>jInvertScroll Example</h1>
     
     <div class="horizon scroll">
         <img src="http://localhost:8888/SWITCH/wp-content/uploads/2017/08/horizon.png" alt="" />
@@ -2693,7 +2705,19 @@ This e-mail was sent from a contact form on SWITCH (http://localhost:8888/SWITCH
     </div>
     <div class="front scroll">
         <img src="http://localhost:8888/SWITCH/wp-content/uploads/2017/08/front.png" alt="" />
-    </div>";s:6:"filter";b:0;s:11:"panels_info";a:7:{s:5:"class";s:14:"WP_Widget_Text";s:4:"grid";i:0;s:4:"cell";i:0;s:2:"id";i:0;s:9:"widget_id";s:36:"b30049c5-8d40-43a7-bc6c-93dbc17a27af";s:5:"style";a:5:{s:18:"background_display";s:4:"tile";s:16:"animation_offset";s:2:"10";s:19:"animation_iteration";s:1:"1";s:17:"iw-visible-screen";s:6:"iw-all";s:17:"iw-visible-layout";s:6:"iw-all";}s:10:"cell_index";i:0;}}}s:5:"grids";a:1:{i:0;a:2:{s:5:"cells";i:1;s:5:"style";a:0:{}}}s:10:"grid_cells";a:1:{i:0;a:4:{s:4:"grid";i:0;s:5:"index";i:0;s:6:"weight";i:1;s:5:"style";a:0:{}}}}]]></wp:meta_value>
+    </div>
+
+    <script type="text/javascript">
+    (function($) {
+        $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+            {
+            height: 6000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                console.log(percent);
+            }
+        });
+    }(jQuery));
+    </script>";s:6:"filter";b:0;s:11:"panels_info";a:6:{s:5:"class";s:14:"WP_Widget_Text";s:4:"grid";i:0;s:4:"cell";i:0;s:2:"id";i:0;s:9:"widget_id";s:36:"b30049c5-8d40-43a7-bc6c-93dbc17a27af";s:5:"style";a:6:{s:27:"background_image_attachment";b:0;s:18:"background_display";s:4:"tile";s:16:"animation_offset";s:2:"10";s:19:"animation_iteration";s:1:"1";s:17:"iw-visible-screen";s:6:"iw-all";s:17:"iw-visible-layout";s:6:"iw-all";}}}}s:5:"grids";a:1:{i:0;a:2:{s:5:"cells";i:1;s:5:"style";a:0:{}}}s:10:"grid_cells";a:1:{i:0;a:4:{s:4:"grid";i:0;s:5:"index";i:0;s:6:"weight";i:1;s:5:"style";a:0:{}}}}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[parallax-frame-layout-option]]></wp:meta_key>
